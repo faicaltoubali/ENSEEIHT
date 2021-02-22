@@ -1,0 +1,5 @@
+Sujet Retenu : Super Mario Bros
+
+L'application de chat entre les éléves ingénieurs et les
+anciens étudiants me parait flou, vous verrez les sockets
+l'année prochaine en Intergiciel, le jeu est plus adapté.
