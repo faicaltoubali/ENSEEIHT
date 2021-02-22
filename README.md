@@ -5,8 +5,9 @@
 
 ## About :
 
-<p>I'm Faical TOUBALI HADAOUI, an engineering student at Computer Science in ENSEEIHT Toulouse.</p>
-<p>I'm currently in the 2nd year in ENSEEIHT and I am looking for an intership. </p>
+I'm Faical TOUBALI HADAOUI, an engineering student at Computer Science in ENSEEIHT Toulouse.
+
+    I'm currently in the 2nd year in ENSEEIHT at the field of "Software Engineering" and I am looking for an intership in the domain of artificial intelligence, Machine Learning, Data Science or Software Developpment. 
 
   
 
