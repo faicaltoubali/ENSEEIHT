@@ -1,0 +1,281 @@
+V "GNAT Lib v2019"
+A -gnatwa
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U arbre_genealogique%b	arbre_genealogique.adb	09832571 NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+
+U arbre_genealogique%s	arbre_genealogique.ads	c7d62e03 BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W arbre_binaire%s	arbre_binaire.adb	arbre_binaire.ali
+W registre%s		registre.adb		registre.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-inteio.ads		20190518041256 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-string.ads		20190518041255 90ac6797 ada.strings%s
+D a-strmap.ads		20190518041255 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20190518041255 1656705b ada.strings.unbounded%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041255 eff36322 ada.unchecked_deallocation%s
+D arbre_binaire.ads	20191221005450 a594a557 arbre_binaire%s
+D arbre_binaire.adb	20191221005450 cca448a9 arbre_binaire%b
+D arbre_genealogique.ads  20191221005450 d10d088b arbre_genealogique%s
+D arbre_genealogique.adb  20191221005450 2ec5a45e arbre_genealogique%b
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D registre.ads		20191221005450 a519f384 registre%s
+D registre.adb		20191221005450 26c87a84 registre%b
+D system.ads		20190518041255 4635ec04 system%s
+D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041254 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [arbre_genealogique standard 9 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 19|2r6 2r33 20|1r6 1r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[14|46] 20|1w10 1r35
+X 9 a-string.ads
+16K13*Strings 35e16 19|2r10 2r37
+X 11 a-strunb.ads
+82K21*Unbounded 756e26 19|2w18 2r45
+87R9*Unbounded_String<5|43R9> 739e14 19|33r116 33r147 33r250 44r151 44r182
+. 44r285 49r152 49r183 49r286 20|5r116 5r147 5r241 35r151 35r182 35r276 45r150
+. 45r181 45r275
+X 13 a-textio.ads
+86I12*Field{integer}
+X 14 a-tiinio.ads
+80U14*Put 20|131s9[6|18]
+82i7 Width{13|86I12} 20|131r23[6|18]
+X 17 arbre_binaire.ads
+8k9*Arbre_Binaire 106e18 19|3w6 108r13
+15P10 T_Abr 19|111r26[107]
+23V14 Vide{boolean} 20|30s16[19|107] 101s14[19|107] 107s28[19|107] 107s76[19|107]
+. 110s31[19|107] 110s75[19|107] 112s27[19|107] 112s75[19|107] 152s23[19|107]
+. 153s17[19|107] 153s61[19|107] 178s19[19|107] 179s17[19|107] 179s65[19|107]
+. 203s21[19|107] 204s17[19|107] 204s61[19|107] 229s18[19|107] 255s12[19|107]
+26V14 Taille{integer} 20|17s17[19|107]
+30U15 Creer_Arbre 20|10s9[19|107]
+38U15 Ajouter_Fils_Droit 20|41s9[19|107]
+45U15 Ajouter_Fils_Gauche 20|51s9[19|107]
+57U15 Supprimer 20|57s6[19|107] 142s9[19|107]
+63V14 Arbre_Cle{15P10[19|107]} 20|64s13[19|107] 136s33[19|107]
+66V14 Existe{boolean} 20|302s16[19|107]
+71U15 Vider_Arbre 20|23s9[19|107]
+76U15 Afficher_Arbre_Binaire 20|136s8[19|107]
+83V14 Avoir_Cle_Arbre{integer} 20|70s16[19|107] 232s55[19|107]
+87V14 Avoir_Sous_Arbre_Droit{15P10[19|107]} 20|82s13[19|107] 107s35[19|107]
+. 108s35[19|107] 110s38[19|107] 111s36[19|107] 112s34[19|107] 153s24[19|107]
+. 179s24[19|107] 204s24[19|107] 236s35[19|107] 258s31[19|107]
+90V14 Avoir_Sous_Arbre_Gauche{15P10[19|107]} 20|76s13[19|107] 107s83[19|107]
+. 109s35[19|107] 110s82[19|107] 112s82[19|107] 113s36[19|107] 153s68[19|107]
+. 179s72[19|107] 204s67[19|107] 237s35[19|107] 259s31[19|107]
+X 19 arbre_genealogique.ads
+7i5 Registre_Taille{integer} 12r42
+9k9*arbre_genealogique 7z5 107E19 114l5 114e23 20|2b14 318l5 318t23
+11K11*new_registre[23|8] 13r7
+15P8*T_Abr_Genea<17|15P10[107]> 33r41 36r45 38r46 40r43 44r43 49r43 54r46
+. 56r41 56r90 58r47 60r42 60r63 62r42 62r63 65r40 68r44 71r47 76r55 80r40
+. 83r37 86r38 89r55 92r36 95r43 98r38 111c7 20|5r41 15r45 21r46 28r43 35r42
+. 45r42 55r42 62r37 62r86 68r43 74r38 74r59 80r38 80r59 87r40 95r44 97r38
+. 134r47 140r55 147r40 149r39 173r38 175r36 198r38 200r37 222r55 224r38 251r36
+. 270r43 300r38
+17R8*T_Registre_Genea<23|37R9[11]> 33r89 44r124 49r125 20|5r89 35r124 45r123
+19E8*T_Mois_Gen<23|12E10[11]> 33r196 44r231 49r232 20|5r190 35r225 45r224
+21R8*T_Cellule_Identifiant 22r41 23c8 27e20 20|103r31 154r31 180r27 205r31
+. 232r31 280r53
+22P8*T_Ensemble_Identifiant(21R8) 26r31 68r128 80r61 83r58 86r59 89r127 101r45
+. 103r41 103r74 20|95r128 96r14 97r62 98r14 147r60 148r11 149r64 150r19 173r59
+. 174r9 175r61 176r12 198r59 199r9 200r62 201r13 222r127 223r9 224r64 225r14
+. 271r8 272r9 273r9 274r43 274r77 274r110 275r17 305r41 312r37 312r69
+25i15 Identifiant{integer} 20|279r45 279r66 280r83 308r20
+26p17 Suivant{22P8} 20|104m20 155m24 181m20 206m24 233m24 281m50 284r61 287r41
+. 314r22
+33U15*Creer_Minimal 33<31 33>55 33<74 33>107 33>135 33>166 33>186 33>209
+. 33>230 20|5b15 12l9 12t22
+33p31 Abr{15P8} 34r37 20|5b31 10m21
+33i55 Racine{integer} 20|5b55 9r52 10r25
+33r74 Registre{17R8} 20|5b74 9m42
+33r107 Nom{11|87R9} 20|5b107 8r38
+33r135 Prenom{11|87R9} 20|5b135 8r44
+33i166 Jour{integer} 20|5b166 8r53
+33e186 Mois{19E8} 20|5b183 8r60
+33i209 Annee{integer} 20|5b203 8r67
+33r230 Lieu_Naissance{11|87R9} 20|5b224 8r75
+36V14*Taille_Genealogique{integer} 34s17 36>36 20|15b14 18l9 18t28 89s16
+36p36 Abr{15P8} 20|15b36 17r26
+38U15*Vider_Genealogique 38<36 20|21b15 24l9 24t27
+38p36 Abr{15P8} 20|21b36 23m23
+40V14*Vide_Genealogique{boolean} 40>34 99s20 20|28b14 31l9 31t26
+40p34 Abr{15P8} 20|28b34 30r21
+44U15*Ajouter_Pere 44=30 44>57 44>90 44<109 44>142 44>170 44>201 44>221 44>244
+. 44>265 20|35b15 42l9 42t21
+44p30 Abr{15P8} 20|35b29 41m30
+44i57 Identifiant_Donnee{integer} 20|35b56 41r36
+44i90 Pere{integer} 20|35b89 40r52 41r57
+44r109 Registre{17R8} 20|35b109 40m42
+44r142 Nom{11|87R9} 20|35b142 39r38
+44r170 Prenom{11|87R9} 20|35b170 39r44
+44i201 Jour{integer} 20|35b201 39r53
+44e221 Mois{19E8} 20|35b218 39r60
+44i244 Annee{integer} 20|35b238 39r67
+44r265 Lieu_Naissance{11|87R9} 20|35b259 39r75
+49U15*Ajouter_Mere 49=30 49>56 49>91 49<110 49>143 49>171 49>202 49>222 49>245
+. 49>266 20|45b15 52l9 52t21
+49p30 Abr{15P8} 20|45b29 51m31
+49i56 Identifiant_Donnee{integer} 20|45b56 51r37
+49i91 Mere{integer} 20|45b89 50r52 51r58
+49r110 Registre{17R8} 20|45b108 50m42
+49r143 Nom{11|87R9} 20|45b141 49r38
+49r171 Prenom{11|87R9} 20|45b169 49r44
+49i202 Jour{integer} 20|45b200 49r53
+49e222 Mois{19E8} 20|45b217 49r60
+49i245 Annee{integer} 20|45b237 49r67
+49r266 Lieu_Naissance{11|87R9} 20|45b258 49r75
+54U15*Supprimer_Genea 54=33 54>60 20|55b11 58l5 58t20
+54p33 Abr{15P8} 20|55b29 57m18
+54i60 Identifiant{integer} 20|55b56 57r24
+56V14*Arbre_Cle_Genea{15P8} 56>32 56>55 20|62b10 65l5 65t20 89s37 124s18
+. 246s18 272s90 273s90
+56p32 Abr{15P8} 20|62b28 64r25
+56i55 Identifiant{integer} 20|62b51 64r31
+58V14*Avoir_Cle_Arbre_Genea{integer} 58>38 20|68b10 71l5 71t26 103s55 154s55
+. 180s51 205s55
+58p38 Abr{15P8} 20|68b34 70r34
+60V14*Sous_Arbre_Gauche{15P8} 60>34 20|74b10 77l5 77t22 159s32 185s28 210s36
+60p34 Abr{15P8} 20|74b30 76r39
+62V14*Sous_Arbre_Droit{15P8} 62>33 20|80b10 83l5 83t21 158s28 184s28 209s36
+62p33 Abr{15P8} 20|80b29 82r38
+65V14*Nombre_Ancetre{integer} 65>31 65>54 20|87b14 90l9 90t23
+65p31 Abr{15P8} 20|87b31 89r55
+65i54 Identifiant_Donnee{integer} 20|87b54 89r61
+68V14*Ancetres_Generation{22P8} 68>35 68>58 68>92 20|95b14 126l8 126t27
+68p35 Abr{15P8} 20|95b35 124r36
+68i58 Identifiant_Donnee{integer} 20|95b58 124r41
+68i92 Nb_Generation{integer} 20|95b92 124r65
+71U15*Afficher_Arbre_Noeud 71>38 71>61 71>81 20|134b15 137l9 137t29
+71p38 Abr{15P8} 20|134b38 136r45
+71i61 Noeud{integer} 20|134b61 136r51
+71i81 n{integer} 20|134b81 136r60
+73U15*Afficher_Entier_Arbre 73>39 108r38 20|129b11 132l5 132t26
+73i39 Entier{integer} 20|129b35 131r15
+76U15*Supprimer_Noeud_Ancetres 76=42 76>69 20|140b15 143l9 143t33
+76p42 Abr{15P8} 20|140b42 142m21
+76i69 Noeud{integer} 20|140b69 142r27
+80V14*Un_Seul_Parent{22P8} 80>31 20|147b15 168l9 168t23
+80p31 Abr{15P8} 20|147b31 166r20
+83V14*Deux_Parent{22P8} 83>28 20|173b15 194l8 194t19
+83p28 Abr{15P8} 20|173b29 191r19
+86V14*Aucun_Parent{22P8} 86>29 20|198b14 219l9 219t21
+86p29 Abr{15P8} 20|198b29 217r19
+89V14*Ancetres_Plusieurs_Generation{22P8} 89>46 89>69 89>103 20|222b14 248l9
+. 248t38 272s35 273s35
+89p46 Abr{15P8} 20|222b46 246r36
+89i69 Identifiant_Donnee{integer} 20|222b69 246r42
+89i103 n{integer} 20|222b103 227r19
+92V14*profondeur{integer} 92>27 20|251b14 258s18 259s18 266l9 266t19 272s77
+. 273s77
+92p27 Abr{15P8} 20|251b27 255r19 258r55 259r56
+95V14*Verifier_Ancetres{integer} 95>34 95>57 95>74 20|270b14 297l9 297t26
+95p34 Abr{15P8} 20|270b34 272r67 272r108 273r67 273r108
+95i57 n{integer} 20|270b57 272r73 272r114
+95i74 m{integer} 20|270b74 273r73 273r114
+98V14*Existe_Noeud{boolean} 98>29 98>52 20|300b14 303l9 303t21
+98p29 Abr{15P8} 99r38 20|300b29 302r25
+98i52 Identifiant_Donnee{integer} 20|300b52 302r31
+101V14*Avoir_Identifiant{integer} 101>34 20|305b10 309l5 309t22
+101p34 Liste{22P8} 20|305b30 308r10
+103V14*Avoir_Suivant{22P8} 103>30 20|312b10 315l5 315t18
+103p30 Liste{22P8} 20|312b26 314r12
+107K19 abr_genea[17|8] 109r7
+X 20 arbre_genealogique.adb
+6r5 Dico{23|21R10[19|11]} 8m9 9r59
+37r5 Dico{23|21R10[19|11]} 39m9 40r57
+47r9 Dico{23|21R10[19|11]} 49m9 50r58
+96p9 T{19|22P8} 124m62 124r62 125r15
+97U19 Ajouter 97b19 97>29 97=52 97>87 108s25 109s25 111s26 113s26 121l13
+. 121t20 124s8
+97p29 Abr{19|15P8} 101r21 103r79 107r60 107r109 108r60 109r60 110r63 110r108
+. 111r61 112r59 112r108 113r62
+97p52 T{19|22P8} 104r31 105m13 108m68 109m68 111m69 113m69
+97i87 i{integer} 102r16 108r71 109r71 111r72 113r72
+98p9 T1{19|22P8} 103m21 104r13 105r18
+148p7 T{19|22P8} 166m26 166r26 167r18
+149U20 Ajouter 149b20 149>30 149=53 158s18 159s22 163l13 163t20 166s10
+149p30 Abr{19|15P8} 152r29 153r49 153r94 154r79 158r45 159r50
+149p53 T{19|22P8} 155r35 156m17 158m52 159m57
+150p14 T1{19|22P8} 154m21 155r17 156r22
+174p5 T{19|22P8} 191m25 191r25 192r17
+175U17 Ajouter 175b17 175>27 175=50 184s18 185s18 189l13 189t20 191s9
+175p27 Abr{19|15P8} 178r26 179r49 179r98 180r75 184r45 185r46
+175p50 T{19|22P8} 181r31 182m13 184m52 185m53
+176p7 T1{19|22P8} 180m17 181r13 182r18
+199p5 T{19|22P8} 217m25 217r25 218r15
+200U18 Ajouter 200b18 200>28 200=51 209s26 210s26 214l13 214t20 217s9
+200p28 Abr{19|15P8} 203r27 204r49 204r93 205r79 209r53 210r54
+200p51 T{19|22P8} 206r35 207m17 209m60 210m61
+201p8 T1{19|22P8} 205m21 206r17 207r22
+223p5 T{19|22P8} 246m64 246r64 247r15
+224U19 Ajouter 224b19 224>29 224=53 224>89 236s25 237s25 243l15 243t22 246s8
+224p29 Abr{19|15P8} 229r25 232r73 236r59 237r60
+224p53 T{19|22P8} 233r35 234m17 236m67 237m68
+224i89 i{integer} 227r14 236r71 237r72
+225p9 T1{19|22P8} 232m21 233r17 234r22
+252i5 a{integer} 258m13 260r16 261r28
+253i5 b{integer} 259m13 260r21 263r28
+271p5 T{19|22P8} 291m30 291r30 292r13
+272p5 T1{19|22P8} 291m20 291r20
+273p5 T2{19|22P8} 291m25 291r25
+274U23 Modifier 274b23 274<34 274<68 274<102 289l13 289t21 291s9
+274p34 T1{19|22P8} 277r23 279r38 287m28 287r34
+274p68 T2{19|22P8} 278r35 279r59 280r76 284m48 284r54
+274p102 T{19|22P8} 281r61 282m43
+275p13 T3{19|22P8} 280m43 281r43 282r48
+X 23 registre.ads
+6i5 Capacite{integer} 19|12r30
+8k9*registre 19|4w6 12r19 23|85e13
+12E10 T_Mois 19|19r26[11]
+21R10 T_Dictionnaire 20|6r12[19|11] 37r12[19|11] 47r16[19|11]
+37R9 T_Registre 19|17r32[11]
+61U15 Ajouter_Identifiant_Dictionnaire 20|9s9[19|11] 40s9[19|11] 50s9[19|11]
+83V14 Creer_Dictionnaire{21R10[19|11]} 20|8s17[19|11] 39s17[19|11] 49s17[19|11]
+

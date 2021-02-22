@@ -1,0 +1,154 @@
+V "GNAT Lib v2019"
+A -gnatwa
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV SPARK_05
+
+U registre%b		registre.adb		2d255c6d NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U registre%s		registre.ads		b34f83df BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-charac.ads		20190518041255 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041255 66457d31 ada.characters.latin_1%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041255 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-string.ads		20190518041255 90ac6797 ada.strings%s
+D a-strmap.ads		20190518041255 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20190518041255 1656705b ada.strings.unbounded%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D registre.ads		20191221005450 a519f384 registre%s
+D registre.adb		20191221005450 26c87a84 registre%b
+D system.ads		20190518041255 4635ec04 system%s
+D s-atocou.ads		20190518041256 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041255 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041256 4ff27390 system.finalization_root%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190518041255 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041254 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041254 aedef97e system.stream_attributes%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [registre standard 8 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|2r6 2r34 17|1r6 1r24
+X 8 a-string.ads
+16K13*Strings 35e16 16|2r10 2r38
+X 10 a-strunb.ads
+82K21*Unbounded 756e26 16|2w18 2r46
+87R9*Unbounded_String<5|43R9> 739e14 16|23r25 24r25 26r36 83r41 83r69 83r159
+. 17|39r41 39r69 39r159
+X 12 a-textio.ads
+57K13*Text_IO 727e16 17|1w10 1r28
+508U14*Put_Line 17|67s53 83s54
+X 16 registre.ads
+6i5 Capacite{integer} 35r36 45r54 81r17 17|7r29
+8k9*registre 6z5 85l5 85e13 17|2b14 132l5 132t13
+10X6*Identifiant_Absent_Exception 17|64r23 67r21 115r22
+11X6*Identifiant_Present_Exception 17|80r22 83r21
+12E10*T_Mois 12e125 17r20 83r112 17|39r112
+12n21*Janvier{12E10}
+12n30*Fevrier{12E10}
+12n39*Mars{12E10}
+12n46*Avril{12E10}
+12n54*Mai{12E10}
+12n60*Juin{12E10}
+12n67*Juillet{12E10}
+12n77*Aout{12E10}
+12n83*Septembre{12E10}
+12n95*Octobre{12E10}
+12n105*Novembre{12E10}
+12n116*Decembre{12E10}
+14R10*T_Date 19e20 25r36 17|40r12
+16i13 Jour{integer} 17|43m14
+17e13 Mois{12E10} 17|44m14
+18i13 Annee{integer} 17|45m14
+21R10*T_Dictionnaire 27e20 32r27 61r125 66r129 77r102 83r185 17|39r185 41r12
+. 54r125 73r130 106r102 107r8
+23r16 Prenom{10|87R9} 17|47m10
+24r16 Nom{10|87R9} 17|46m10
+25r16 Date_De_Naissance{14R10} 17|48m10
+26r16 Lieu_De_Naissance{10|87R9} 17|49m10
+29R9*T_Cellule 33e18 35r49 17|55r21
+31i12 Identifiant{integer} 17|33r43 60m30
+32r12 Dictionnaire{21R10} 17|61m30 78m41 112r46
+35A9*T_Tab_Registre(29R9)<integer> 39r20
+37R9*T_Registre 41e20 49r43 54r37 57r39 61r67 66r71 71r57 77r55 80r40 17|13r43
+. 21r37 29r39 54r67 73r72 89r57 106r55 122r40
+39a9 Elements{35A9} 17|33r27 62m25 78m25 95m21 95r49 112r30
+40i9 Taille{integer} 17|15m18 23r25 96m21 96r40 127r22
+44V14*Hashage{integer} 44>24 45r18 45r37 17|5b14 8l9 8t16 32s20 59s25 77s25
+. 94s21 111s25
+44i24 Identifiant{integer} 17|5b24 7r13
+49U15*Initialiser 49<28 17|13b15 16l9 16t20
+49r28 Registre{37R9} 50r26 17|13b28 15m9
+54V14*Est_Vide{boolean} 50s17 54>23 62s20 81s119 17|21b14 24l9 24t17 124s12
+54r23 Registre{37R9} 17|21b23 23r16
+57V14*Appartient{boolean} 57>25 57>52 17|29b14 34l9 34t19 58s16 76s16 92s12
+. 110s12
+57r25 Registre{37R9} 17|29b25 33r18
+57i52 Id{integer} 17|29b52 32r29 33r57
+61U15*Ajouter_Identifiant_Dictionnaire 61=49 61>80 61>107 17|54b15 68l9 68t41
+61r49 Registre{37R9} 62r30 17|54b49 58r27 62m16
+61i80 Identifiant{integer} 17|54b80 58r38 59r34 60r46
+61r107 Dictionnaire{21R10} 17|54b107 61r46
+66U15*Enregistrer_Dictionnaire_Identifiant 66=53 66>84 66>111 17|73b15 84l9
+. 84t45
+66r53 Registre{37R9} 17|73b54 76r27 78m16
+66i84 Identifiant{integer} 17|73b85 76r38 77r33
+66r111 Dictionnaire{21R10} 17|73b112 78r57
+71U15*Supprimer_Identifiant 71=39 71>70 17|89b15 101l9 101t30
+71r39 Registre{37R9} 72r34 72r62 17|89b39 92r23 95m12 95r40 95r74 96m12 96r31
+71i70 Identifiant{integer} 17|89b70 92r34 94r29
+77V14*Dictionnaire_Identifiant{21R10} 77>41 77>68 17|106b14 117l9 117t33
+77r41 Registre{37R9} 17|106b41 110r23 112r21
+77i68 Identifiant{integer} 17|106b68 110r34 111r33
+80V14*Taille_Registre{integer} 72s18 72s46 80>32 81r29 81r56 81r88 17|95s58
+. 122b14 129l9 129t24
+80r32 Rg{37R9} 81r128 17|122b32 124r21 127r19
+83V14*Creer_Dictionnaire{21R10} 83>35 83>60 83>88 83>105 83>121 83>139 17|39b14
+. 51l9 51t27
+83r35 Nom{10|87R9} 17|39b35 46r17
+83r60 Prenom{10|87R9} 17|39b60 47r20
+83i88 Jour{integer} 17|39b88 43r22
+83e105 Mois{12E10} 17|39b105 44r22
+83i121 Annee{integer} 17|39b121 45r23
+83r139 Lieu_De_Naissance{10|87R9} 17|39b139 49r31
+X 17 registre.adb
+30i5 Index{integer} 32m11 33r36
+40r5 Date{16|14R10} 43m9 44m9 45m9 48r31
+41r5 Dico{16|21R10} 46m5 47m5 48m5 49m5 50r12
+55r5 Petit_Cellule{16|29R9} 60m16 61m16 62r44
+56i5 Index{integer} 59m16 62r34
+74i5 Index{integer} 77m16 78r34
+90i5 Index{integer} 94m12 95r30
+107r5 D{16|21R10} 112m16 113r23
+108i5 Index{integer} 111m16 112r39
+

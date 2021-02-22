@@ -1,0 +1,154 @@
+Noms     : TOUBALI HADAOUI & AASSOU
+Prenoms  : FAICAL & AYOUB
+Groupe   : 1SN-B
+
+-------------------------------------------------------------------------------------------
+
+R0: Proposer à l'utilisateur une interface pour manipuler les arbres genealogiues . 
+
+R1  : Comment R0 ? 
+
+   - Initialiser automatiquement un arbre .           								       Arbre : out T_Abr
+    
+    Répéter  
+    
+	      - Afficher le menu.
+	      
+	      - Lire sa réponse.                                                                                      reponse1 : out Integer 
+
+	      - Realiser le choix de l'utilisatuer. 
+
+	      - Demander à l'utilisateur s'il veut bien recommencer son programme et lire la réponse.                 reponse2 : out Character  
+    
+    jusqu'au reponse2="n"
+
+R2 : Comment R1 ?
+
+      -Comment "Initialiser automatiquement un arbre" ?
+
+             Initialiser (Arbre) 
+
+      -Comment " Afficher le menu "
+
+             Ecrire ("Veuillez choisir la procédure que vous voulez opérer")
+	     Ecrire (" -1 - Creer un arbre minimal contenant le seul noeud racine , sans père ni mère.
+
+                       -2 - Ajouter un parent 
+
+                       -3 - Obtenir le nombre d'ancêtres connus d'un individu donné,lui aussi compris .
+
+                       -4 - Obtenir l'ensemble des ancêtres situés à une certaine génération d'un noeud donné .
+
+                       -5 - Afficher l'arbre d'un noeud donné . 
+
+                       -6 - Supprimer , pour un arbre , un noeud et ses ancêtres .
+
+                       -7 - Obtenir l'ensemble des individu qui n'ont qu'un parent connu .
+
+                       -8 - Obtenir l'ensemble des individu qui ont deux parents connus .
+
+                       -9 - Obtenir l'ensemble des individu dont les deux parents sont inconnus. 
+
+                       -10- Identifier les ancêtres d'un individu sur n donné générations données 
+                            pour un noeud donné.
+
+                       -11- Verifier que deux individus n et m ont un ou plusieurs ancêtres 
+                            homonymes . 
+
+                       -12- Verifier si un noeud existe ") 
+    
+    -Comment "Lire sa réponse"
+            
+	    Lire ( reponse1 ) 
+
+    -Comment "Realiser le choix de l'utilisateur" 
+
+                       
+		         Selon reponse3 dans
+
+			 1 => -Comment "creer un arbre" ? 
+			           
+				   - Demander à l'utilisateur l'identifiant et au moins le nom de l'individu qu'il veut insérer. 
+				   - Insérer dans le registre les informations entrées par l'utilisateur.
+				   - Creer le noeud de l'arbre par Arbre_Binaire.Creer_Minimal.
+
+                         2 => -Comment "Ajouter un parent" ? 
+			           
+				   - Afficher l'arbre actuelle pour permettre à l'utilisateur de savoir ce qu'il a droit d'ajouter.
+				   - Demander à l'utilisateur s'il veut ajouter un père ou une mère.                                            reponse4 : out Character				   
+				   si reponse4="P" faire
+				          - Demander à l'utilisateur l'identifiant et au moins le nom du père qu'il veut insérer.
+					  - Utiliser Arbre_Binaire.Ajouter_Fils_Droit pour ajouter un père.
+	                           fin si
+				   si reponse4="M" faire
+				          - Demander à l'utilisateur l'identifiant et au moins le nom de la mère qu'il veut insérer
+					  - Utiliser Arbre_Binaire.Ajouter_Fils_Gauche pour ajouter une mère.
+				   finsi
+
+		         3 => -Comment "Obtenir le nombre d'ancêtres connus d'un individu donné, lui aussi compris" ? 
+			          
+				   - Demander à l'utilisateur l'identifiant de l'individu dont il veut obtenir le nombre d'ancetres.            id : out T_Identifiant
+				   - Utiliser Arbre_Binaire.Arbre_Cle pour avoir le sous arbre des ancetres avec individu compris.
+	                           - Retourner ce sous arbre sous forme d'une liste chainée de type : T_Ensemble_Identifiant.
+
+                        4 => -Comment "Obtenir l'ensemble des ancêtres situés à une certaine génération d'un noeud donné" ? 
+                                   
+				   - Demander à l'utilisateur de saisir l'identifiant associé à l'individu.                                     id1 : out T_Identifiant 
+				   - Utiliser Arbre_Binaire.Arbre_Cle pour avoir le sous arbre des ancetres avec l'individu compris.            
+	                           - Supprimer les ancetres qui dépasse la génération n .                                                         n : in Integer 
+		                   - Retourner ce sous arbre sous forme d'une liste chainée de type : T_Ensemble_Identifiant  .
+
+                        5 => -Comment "Afficher l'arbre d'un noeud donné ? 
+				  
+				   - Demander à l'utilisateur de saisir l'identifiant du noeud.                                                 id2 : out T_Identifiant
+		                   - Utiliser Arbre_Binaire.Arbre_Cle pour afficher l'arbre associé à cet identifiant .
+	                           - Afficher cet arbre .
+
+		        6 => -Comment "Supprimer , pour un arbre , un noeud et ses ancêtres" ? 
+		                  
+				   - Demander à l'utilisateur de saisir l'identifiant du noeud.                                                 id3 : out T_Identifiant
+				   - Utiliser Arbre_Binaire.Supprimer pour supprimer tout l'arbre associé à cet identifiant .
+                      		   - Afficher cet arbre. 
+				   
+		        7 => Comment "Obtenir l'ensemble des individu qui n'ont qu'un parent connu" ? 
+		                   
+				   - Créer un tableau de capacité la taille de l'arbre.                                                         tableau :out array 
+			           - Parcourir l'arbre.
+				   - Stocker les individus qui n'ont qu'un seul fils droit ou qui n'ont qu'un seul fils gauche.
+
+                        8 => Comment "Obtenir l'ensemble des individu qui ont deux parents  connus" ? 
+				   
+				   - Créer un tableau de capacité la taille de l'arbre.							        tableau1 :out array
+			           - Parcourir l'arbre.
+		                   - Stocker les individus qui ont en meme temps un fils gauche et un fils droit .
+                       
+		        9 => Comment "Obtenir l'ensemble des individu dont les deux parents sont inconnus.  
+				   
+				   - Créer un tableau de capacité la taille de l'arbre.                                                         tableau2 :out array 
+			           - Parcourir l'arbre.
+				   - Stocker les feuilles de l'arbre. 
+ 
+		        10 => Comment "Identifier les ancêtres d'un individu sur n donné générations données 
+                                      pour un noeud donné." ?
+		                  
+				  - Créer un tableau de capacité la taille de l'arbre.                                                         tableau3 :out array 
+				  - Demander à l'utilisateur de saisir l'identifiant associé à l'individu.                                     id4 : out T_Identifiant
+				  - Demander à l'utilisateur de saisir l'entier n correspondant à la génération.                                n  : out Integer 
+				  - répéter "Obtenir l'ensemble des ancêtres situés à une certaine génération d'un noeud donné" n fois.  
+ 			
+			11 => Comment "Verifier que deux individus n et m ont un ou plusieurs ancêtres homonymes."
+
+				  - Stocker le sous arbre de n en utilisant Arbre_Binaire.Arbre_Cle
+				  - Parcourir l'arbre de m avec operation de parcours = Existe( element_arbre_m , arbre_n).
+
+                        12 => Comment " Vérifier si un noeud existe".
+
+				  - Demander à l'utilisateur de saisir un identifiant associé à l'individu.                                    id5 : out T_Identifiant
+				     i=0
+				  - Parcourir l'arbre en indentant i si l'identifiant coincide avec l'identifiant 
+				    d'un registre déja existant dans l'arbre . 
+				  - Retourner i>=0 .
+
+		           
+		       
+

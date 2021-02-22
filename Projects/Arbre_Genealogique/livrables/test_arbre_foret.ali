@@ -1,0 +1,101 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatwa
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RECURSION
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U test_arbre_foret%b	test_arbre_foret.adb	0ae74362 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W arbre_foret%s		arbre_foret.adb		arbre_foret.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20190518041255 76789da1 ada%s
+D a-except.ads		20190518041255 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041256 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041254 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041255 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041256 491b781d ada.tags%s
+D a-textio.ads		20190518041256 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
+D arbre_foret.ads	20191221005450 664cd46e arbre_foret%s
+D arbre_foret.adb	20191221005450 951549f6 arbre_foret%b
+D interfac.ads		20190518041254 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041255 4635ec04 system%s
+D s-conca3.ads		20190518041256 0b705ca5 system.concat_3%s
+D s-crtl.ads		20190518041254 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041255 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041256 078245e4 system.file_control_block%s
+D s-imgint.ads		20190518041254 02dbe0c2 system.img_int%s
+D s-parame.ads		20190518041256 48ec542b system.parameters%s
+D s-secsta.ads		20190518041256 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041255 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041256 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041256 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041256 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
+D test_arbre_foret.adb	20191221005450 c25f4261 test_arbre_foret%b
+G a e
+G c Z b b [test_arbre_foret standard 4 11 none]
+G r i none [test_arbre_foret standard 4 11 none] [arbre_foret standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 29|2r6 2r24
+X 7 a-textio.ads
+57K13*Text_IO 727e16 29|2w10 2r28
+264U14*New_Line 29|42s9 47s46 55s47 60s51 62s44 67s50 74s40 76s46
+465U14*Put 29|47s9 55s9 60s9 67s9 74s5 76s5
+X 10 arbre_foret.ads
+3i1 Capacite{integer} 29|7r27
+5k9*Arbre_Foret 72e16 29|1w6 7r13
+7P14 T_Abr_Foret 29|10r13[6] 12r50[6]
+18U19 Initialiser 29|14s9[6]
+21V18 Vide{boolean} 29|15s25[6]
+23U19 Creer_Minimal 29|16s9[6]
+26U19 Ajouter_Pere 29|17s9[6] 26s9[6] 27s9[6] 29s9[6] 31s9[6] 35s9[6] 37s9[6]
+. 39s9[6]
+28U19 Ajouter_Mere 29|18s9[6] 25s9[6] 28s9[6] 30s9[6] 32s9[6] 33s9[6] 36s9[6]
+. 38s9[6] 40s9[6]
+30U19 Ajouter_Epoux 29|19s9[6]
+32U19 Ajouter_Compagnon 29|20s9[6] 21s9[6] 22s9[6] 23s9[6] 24s9[6] 34s9[6]
+. 41s9[6]
+35V18 Existe{boolean} 29|49s25[6] 50s25[6] 51s25[6] 52s29[6] 53s29[6] 54s25[6]
+37U19 Demis_Soeurs_Freres_Pere 29|62s9[6]
+41U19 Demis_Soeurs_Freres_Mere 29|69s9[6]
+X 29 test_arbre_foret.adb
+4U11*test_arbre_foret 4b11 80l5 80t21
+6K13 arbre_foret_100[10|5] 8r9
+10p5 Arbre{10|7P14[6]} 48m34 48r34 49r34 50r34 51r34 52r38 53r38 54r34 61m34
+. 61r34 62r36 68m34 68r34 69r36 75m30 75r30
+12U15 Construire_Arbre_Foret 12b15 12<40 43l9 43t31 48s9 61s9 68s9 75s5
+12p40 Abr{10|7P14[6]} 14m23 15r31 16m25 17m24 18m24 19m25 20m29 21m29 22m29
+. 23m29 24m29 25m24 26m23 27m24 28m24 29m24 30m24 31m24 32m24 33m24 34m29
+. 35m24 36m24 37m24 38m24 39m24 40m24 41m29
+45U15 Existe_Arbre_Foret_Test 45b15 56l9 56t32 77s5
+58U15 Tester_Demis_Soeurs_Freres_Pere 58b15 63l9 63t40 78s5
+65U15 Tester_Demis_Soeurs_Freres_Mere 65b15 70l9 70t40 79s5
+

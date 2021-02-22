@@ -1,0 +1,40 @@
+Groupe : e101
+Noms : Toubali Hadaoui & Aassou
+Prénoms : Faical & Ayoub
+----------------------------------------------------------------------------
+1 - Veuillez compilez les programmes dans l'ordre suivant :
+
+    - arbre_binaire
+    - registre
+    - arbre_genealogique
+    - programme_principale 
+
+    - arbre_foret
+
+2 - Veuillez executer les programmes dans l'ordre suivant :
+
+    - test_arbre_binaire
+    - test_registre
+    - test_arbre_genealogique
+    - programme_principale
+
+    -test_arbre_foret
+
+Remarques :
+- La compilation et l'exécution de tous nos programmes est assuré.
+
+- On a changé partiellement la structure de tous nos modules mais pas radicalement.
+à savoir , les modules arbre_binaire, registre , arbre_genealogique et arbre_foret
+sont tous des modules génériques. Auparavant , le module arbre_genealogique
+ne l'était pas.
+
+- On a aussi apporté quelques meilleures modifications sur les procédures et 
+les fonctions de tous les modules .
+
+
+- Vu que nous n'avons pas eu assez de temps pour apporter encore de meilleurs
+modifications nous avons opté à traiter la partie 2.  Nous avons réussi 
+à spécifier et à implanter le module arbre_foret de la partie 2 , on a aussi 
+realisé un test qui opère sur les procédures et fonctions de arbre_foret.
+
+
