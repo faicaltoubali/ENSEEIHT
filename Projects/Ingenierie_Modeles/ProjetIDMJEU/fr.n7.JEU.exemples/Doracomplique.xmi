@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jEU:Jeu xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:jEU="http://www.n7.fr/JEU"
+    name="DoraJeu">
+  <joueur name="Dora"
+      connaissance="//@jeuelement.4 //@jeuelement.5 //@jeuelement.6 //@jeuelement.7"
+      tailleinventaire="10000"
+      objets="//@jeuelement.0 //@jeuelement.1 //@jeuelement.2 //@jeuelement.3"
+      lieu="//@jeuelement.8"/>
+  <jeuelement
+      xsi:type="jEU:Objet"
+      name="SacADos"
+      taille="10"
+      quantite="1"/>
+  <jeuelement
+      xsi:type="jEU:Objet"
+      name="Ficelle"
+      taille="2"/>
+  <jeuelement
+      xsi:type="jEU:Objet"
+      name="Viseur"
+      taille="5"
+      quantite="1"/>
+  <jeuelement
+      xsi:type="jEU:Objet"
+      name="Carte"
+      taille="5"/>
+  <jeuelement
+      xsi:type="jEU:Connaissance"
+      name="Marcher"
+      estPossede="true"/>
+  <jeuelement
+      xsi:type="jEU:Connaissance"
+      name="Courir"/>
+  <jeuelement
+      xsi:type="jEU:Connaissance"
+      name="Grimper"/>
+  <jeuelement
+      xsi:type="jEU:Connaissance"
+      name="SeCacher"/>
+  <jeuelement
+      xsi:type="jEU:Lieu"
+      name="Maison">
+    <objetslieu
+        name="Carte"
+        taille="5"
+        quantite="1"
+        dansLieu="true"
+        lieu="//@jeuelement.8"/>
+    <personnes
+        name="mama_dora">
+      <interaction
+          personne="//@jeuelement.8/@personnes.0"
+          question="Le go&#xfb;ter est pr&#xea;t ">
+        <choix
+            name="Fruit "
+            description="manger un fruit "
+            estFin="true">
+          <actions
+              name="pomme"
+              estFinale="true"/>
+          <actions
+              name="poire"
+              estFinale="true"/>
+        </choix>
+        <choix
+            name="sandwich "
+            description="manger un sandwich "
+            estFin="true">
+          <actions
+              name="poulet"
+              description="Sandwich poulet"
+              estFinale="true"/>
+        </choix>
+      </interaction>
+    </personnes>
+  </jeuelement>
+  <jeuelement
+      xsi:type="jEU:Lieu"
+      name="Jungle"
+      type="fin"/>
+  <jeuelement
+      xsi:type="jEU:Chemin"
+      name="M2J"
+      source="//@jeuelement.8"
+      destination="//@jeuelement.9">
+    <allocateursConnaissance
+        connaissanceAlloue="//@jeuelement.5"/>
+    <allocateursObjetLieu
+        objetAlloue="//@jeuelement.1"
+        quantite="1"/>
+  </jeuelement>
+</jEU:Jeu>

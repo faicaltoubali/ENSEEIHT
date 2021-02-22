@@ -1,0 +1,10 @@
+[comment encoding = UTF-8 /]
+[module ToLTL('http://www.n7.fr/JEU')]
+
+
+[template public jeuToLTL(aJeu : Jeu)]
+[comment @main/]
+[file (aJeu.name, false, 'UTF-8')]
+
+[/file]
+[/template]

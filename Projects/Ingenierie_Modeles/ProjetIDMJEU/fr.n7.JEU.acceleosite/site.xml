@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/fr.n7.JEU.acceleofeature_1.0.0.202101202106.jar" id="fr.n7.JEU.acceleofeature" version="1.0.0.202101202106">
+      <category name="Acceleo feature"/>
+   </feature>
+   <category-def name="Acceleo feature" label="Acceleo feature"/>
+</site>

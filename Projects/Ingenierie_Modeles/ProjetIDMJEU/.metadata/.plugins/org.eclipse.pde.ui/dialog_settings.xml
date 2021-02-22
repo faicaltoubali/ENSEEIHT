@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="initLaunch" value="false"/>
+	<item key="org.eclipse.pde.ui.synchronizeFeatueEnvironment.mode" value="2"/>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.FeatureSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="669"/>
+			<item key="DIALOG_Y_ORIGIN" value="191"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="FeatureExportWizard">
+		<item key="exportType" value="1"/>
+		<item key="destination0" value="C:\Users\Faical\ProjetIDMJEU"/>
+		<item key="destination1" value="C:\Users\Faical\ProjetIDMJEU"/>
+		<item key="exportUpdate" value="true"/>
+		<item key="exportSource" value="false"/>
+		<item key="exportSourceFormat" value="Generate source bundles"/>
+		<item key="saveAsAnt" value="false"/>
+		<item key="qualifier" value="false"/>
+		<item key="qualifierName" value="202101202049"/>
+		<item key="allowBinaryCycles" value="true"/>
+		<item key="useWorkspaceCompiledClasses" value="false"/>
+		<item key="p2metadata" value="true"/>
+		<item key="create_categories" value="true"/>
+		<item key="category_file" value=""/>
+		<item key="signJAR" value="false"/>
+		<item key="jnlp" value="false"/>
+		<item key="siteURL" value=""/>
+		<item key="jre" value=""/>
+	</section>
+	<section name="targetStateView">
+	</section>
+	<section name="PDEFormActionManager">
+	</section>
+	<section name="org.eclipse.pde.ui.PLUGIN_STATUS_DIALOG">
+		<item key="DIALOG_X_ORIGIN" value="760"/>
+		<item key="DIALOG_Y_ORIGIN" value="249"/>
+		<item key="DIALOG_WIDTH" value="418"/>
+		<item key="DIALOG_HEIGHT" value="413"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="pluginsView">
+	</section>
+</section>

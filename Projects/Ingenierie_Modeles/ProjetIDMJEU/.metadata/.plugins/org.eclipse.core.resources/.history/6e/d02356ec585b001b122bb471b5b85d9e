@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<jEU:Jeu xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jEU="http://www.n7.fr/JEU" name="EnigmeJeu">
+  <joueur name="Explorateur" connaissance="//@jeuelement.1" tailleinventaire="10" objets="//@jeuelement.0" lieu="//@jeuelement.2"/>
+  <jeuelement xsi:type="jEU:Objet" name="Tentative" taille="1" quantite="3"/>
+  <jeuelement xsi:type="jEU:Connaissance" name="Reussite"/>
+  <jeuelement xsi:type="jEU:Lieu" name="Enigme">
+    <personnes name="Sphynx">
+      <interaction personne="//@jeuelement.2/@personnes.0" question="Question de Sphynx">
+        <choix name="choix1" estFin="true">
+          <actions name="A1" description="BonneReponse" estFinale="true">
+            <allocateursConnaissance connaissanceAlloue="//@jeuelement.1"/>
+          </actions>
+          <actions name="A2" description="MauvaiseReponse" estFinale="true">
+            <allocateursObjetLieu objetAlloue="//@jeuelement.0" consomme="true" quantite="1"/>
+          </actions>
+        </choix>
+        <choixJoueur name="choixjoueur"/>
+      </interaction>
+    </personnes>
+  </jeuelement>
+  <jeuelement xsi:type="jEU:Lieu" name="Succes" type="fin"/>
+  <jeuelement xsi:type="jEU:Lieu" name="Echec" type="fin"/>
+  <jeuelement xsi:type="jEU:Chemin" name="E2S" source="//@jeuelement.2" destination="//@jeuelement.3">
+    <acces name="AvoirSucces" Connaissance="//@jeuelement.1"/>
+  </jeuelement>
+  <jeuelement xsi:type="jEU:Chemin" name="E2E" source="//@jeuelement.2" destination="//@jeuelement.4">
+    <acces name="AvoirEchec" Objet="//@jeuelement.0" comparaison="="/>
+  </jeuelement>
+</jEU:Jeu>

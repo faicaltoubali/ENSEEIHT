@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<petrinet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:petrinet="http://petrinet/" name="DoraJeu">
+  <petrinetelement xsi:type="petrinet:Place" name="Maison" linkToSource="//@petrinetelement.13 //@petrinetelement.18 //@petrinetelement.26" linkToCible="//@petrinetelement.14 //@petrinetelement.17" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Jungle" linkToCible="//@petrinetelement.31"/>
+  <petrinetelement xsi:type="petrinet:Place" name="SacADos_Dora" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Ficelle_Dora"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Viseur_Dora" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Carte_Dora" linkToSource="//@petrinetelement.20" linkToCible="//@petrinetelement.16"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Marcher_Dora" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Courir_Dora"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Grimper_Dora"/>
+  <petrinetelement xsi:type="petrinet:Place" name="SeCacher_Dora"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Carte_Maison" linkToSource="//@petrinetelement.15" linkToCible="//@petrinetelement.19" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="prendre_Carte_Maison" linkToSource="//@petrinetelement.14 //@petrinetelement.16" linkToCible="//@petrinetelement.13 //@petrinetelement.15"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="deposer_Carte_Maison" linkToSource="//@petrinetelement.17 //@petrinetelement.19" linkToCible="//@petrinetelement.18 //@petrinetelement.20"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.11" source="//@petrinetelement.0" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.0" source="//@petrinetelement.11" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.11" source="//@petrinetelement.10" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.5" source="//@petrinetelement.11" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.0" source="//@petrinetelement.12" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.12" source="//@petrinetelement.0" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.10" source="//@petrinetelement.12" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.12" source="//@petrinetelement.5" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="entree_M2J" linkToSource="//@petrinetelement.27" linkToCible="//@petrinetelement.26"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="sortie_M2J" linkToSource="//@petrinetelement.31" linkToCible="//@petrinetelement.30"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="milieu_M2J" linkToSource="//@petrinetelement.29" linkToCible="//@petrinetelement.28"/>
+  <petrinetelement xsi:type="petrinet:Place" name="M2J_debut" linkToSource="//@petrinetelement.28" linkToCible="//@petrinetelement.27"/>
+  <petrinetelement xsi:type="petrinet:Place" name="M2J_fin" linkToSource="//@petrinetelement.30" linkToCible="//@petrinetelement.29"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.21" source="//@petrinetelement.0" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.24" source="//@petrinetelement.21" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.23" source="//@petrinetelement.24" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.25" source="//@petrinetelement.23" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.22" source="//@petrinetelement.25" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.1" source="//@petrinetelement.22" tokens="1"/>
+</petrinet:PetriNet>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<petrinet:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:petrinet="http://petrinet/" name="DoraJeu">
+  <petrinetelement xsi:type="petrinet:Place" name="Maison" linkToSource="//@petrinetelement.13 //@petrinetelement.18 //@petrinetelement.26 //@petrinetelement.37" linkToCible="//@petrinetelement.14 //@petrinetelement.17 //@petrinetelement.40 //@petrinetelement.47 //@petrinetelement.50 //@petrinetelement.57" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Jungle" linkToCible="//@petrinetelement.31"/>
+  <petrinetelement xsi:type="petrinet:Place" name="SacADos_Dora" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Ficelle_Dora" linkToCible="//@petrinetelement.33"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Viseur_Dora" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Carte_Dora" linkToSource="//@petrinetelement.20" linkToCible="//@petrinetelement.16"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Marcher_Dora" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Courir_Dora" linkToCible="//@petrinetelement.32"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Grimper_Dora"/>
+  <petrinetelement xsi:type="petrinet:Place" name="SeCacher_Dora"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Carte_Maison" linkToSource="//@petrinetelement.15" linkToCible="//@petrinetelement.19" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="prendre_Carte_Maison" linkToSource="//@petrinetelement.14 //@petrinetelement.16" linkToCible="//@petrinetelement.13 //@petrinetelement.15"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="deposer_Carte_Maison" linkToSource="//@petrinetelement.17 //@petrinetelement.19" linkToCible="//@petrinetelement.18 //@petrinetelement.20"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.11" source="//@petrinetelement.0" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.0" source="//@petrinetelement.11" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.11" source="//@petrinetelement.10" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.5" source="//@petrinetelement.11" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.0" source="//@petrinetelement.12" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.12" source="//@petrinetelement.0" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.10" source="//@petrinetelement.12" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.12" source="//@petrinetelement.5" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="entree_M2J" linkToSource="//@petrinetelement.27" linkToCible="//@petrinetelement.26"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="sortie_M2J" linkToSource="//@petrinetelement.31" linkToCible="//@petrinetelement.30"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="milieu_M2J" linkToSource="//@petrinetelement.29 //@petrinetelement.32 //@petrinetelement.33" linkToCible="//@petrinetelement.28"/>
+  <petrinetelement xsi:type="petrinet:Place" name="M2J_debut" linkToSource="//@petrinetelement.28" linkToCible="//@petrinetelement.27"/>
+  <petrinetelement xsi:type="petrinet:Place" name="M2J_fin" linkToSource="//@petrinetelement.30" linkToCible="//@petrinetelement.29"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.21" source="//@petrinetelement.0" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.24" source="//@petrinetelement.21" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.23" source="//@petrinetelement.24" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.25" source="//@petrinetelement.23" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.22" source="//@petrinetelement.25" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.1" source="//@petrinetelement.22" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.7" source="//@petrinetelement.23" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.3" source="//@petrinetelement.23" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="vis_mama_dora_Maison" linkToSource="//@petrinetelement.38" linkToCible="//@petrinetelement.37"/>
+  <petrinetelement xsi:type="petrinet:Place" name="visible_mama_dora_Maison" linkToSource="//@petrinetelement.39 //@petrinetelement.43 //@petrinetelement.53" linkToCible="//@petrinetelement.38"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="sortie_mama_dora_Maison" linkToSource="//@petrinetelement.40" linkToCible="//@petrinetelement.39"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.34" source="//@petrinetelement.0" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.35" source="//@petrinetelement.34" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.36" source="//@petrinetelement.35" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.0" source="//@petrinetelement.36" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="Fruit _mama_dora_Maison" linkToSource="//@petrinetelement.46 //@petrinetelement.49" linkToCible="//@petrinetelement.44"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="choisir_Fruit _mama_dora_Maison" linkToSource="//@petrinetelement.44" linkToCible="//@petrinetelement.43"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.42" source="//@petrinetelement.35" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.41" source="//@petrinetelement.42" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="pomme_Fruit _mama_dora_Maison" linkToSource="//@petrinetelement.47" linkToCible="//@petrinetelement.46"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.45" source="//@petrinetelement.41" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.0" source="//@petrinetelement.45" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="poire_Fruit _mama_dora_Maison" linkToSource="//@petrinetelement.50" linkToCible="//@petrinetelement.49"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.48" source="//@petrinetelement.41" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.0" source="//@petrinetelement.48" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Place" name="sandwich _mama_dora_Maison" linkToSource="//@petrinetelement.56" linkToCible="//@petrinetelement.54"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="choisir_sandwich _mama_dora_Maison" linkToSource="//@petrinetelement.54" linkToCible="//@petrinetelement.53"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.52" source="//@petrinetelement.35" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.51" source="//@petrinetelement.52" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Transition" name="poulet_sandwich _mama_dora_Maison" linkToSource="//@petrinetelement.57" linkToCible="//@petrinetelement.56"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.55" source="//@petrinetelement.51" tokens="1"/>
+  <petrinetelement xsi:type="petrinet:Edge" cible="//@petrinetelement.0" source="//@petrinetelement.55" tokens="1"/>
+</petrinet:PetriNet>

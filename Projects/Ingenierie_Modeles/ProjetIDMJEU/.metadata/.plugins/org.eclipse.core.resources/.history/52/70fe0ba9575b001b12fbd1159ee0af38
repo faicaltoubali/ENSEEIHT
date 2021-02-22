@@ -1,0 +1,9 @@
+grammar fr.n7.JEU with org.eclipse.xtext.common.Terminals
+
+generate jEU "http://www.n7.fr/JEU"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

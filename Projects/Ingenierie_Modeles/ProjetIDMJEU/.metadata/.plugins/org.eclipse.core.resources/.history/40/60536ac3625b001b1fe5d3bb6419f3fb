@@ -1,0 +1,13 @@
+import 'JEU.ecore'
+
+package jEU
+
+context Jeu
+--
+-- example invariant with a custom error message to verify that
+-- the 'name' property of all 'jEU::Jeu' instances is non-null
+--
+inv NonNull_name('The \'name\' property of "' + self.toString() + '" is null'):
+	name <> null
+
+endpackage

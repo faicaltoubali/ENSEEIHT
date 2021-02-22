@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/fr.n7.JEU.feature_1.0.0.202101202049.jar" id="fr.n7.JEU.feature" version="1.0.0.202101202049">
+      <category name="Jeu Feature"/>
+   </feature>
+   <category-def name="Jeu Feature" label="Jeu Feature"/>
+</site>
