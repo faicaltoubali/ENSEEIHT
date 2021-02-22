@@ -8,7 +8,7 @@
 
 <p>  Lancez la méthode principale de la classe MoteurJeu depuis le dossier src:<p> 
 
-<p> java gestionJeu.MoteurJeu <p> 
+<p> java gestionJeu.MoteurJeu<p> 
 
 
 
